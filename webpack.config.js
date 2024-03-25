@@ -7,7 +7,7 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     {
-                      loader: MiniCssExtractPlugin.loader,
+                      loader: miniCss.loader,
                       options: {
                         // you can specify a publicPath here
                         // by default it uses publicPath in webpackOptions.output
